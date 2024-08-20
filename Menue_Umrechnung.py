@@ -29,6 +29,21 @@ while True:
         print (quad, "Quadratkilometer sind ", ha, "Hektar")
     
     elif auswahl == "4":
+        print ("(4) Kilometer/Stunde in Meter/Sekunde")
+        kmh = float(input("Eingabe Kilometer/Stunde: "))
+        ms = kmh / 3.6
+        print (kmh, "Kilometer/Stunde sind " , ms, "Meter/Sekunde")
+    elif auswahl == "5":
+        print ("(5) Kilobyte in Gigabyte")
+        kilob = float(input("Eingabe Kilobyte: "))
+        gigab = kilob / 1000000
+        print (kilob, "Kilobyte sind" , gigab, "Gigabyte")
+    elif auswahl == "0":
+        break
+    else:
+        print ("Ungültige Auswahl")
+    
+                    
         
         
             
