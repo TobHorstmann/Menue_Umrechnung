@@ -1,12 +1,11 @@
 #Menü-Aufbau mit While-Schleife
 while True:
     print ("Was möchten Sie umrechnen?")
-    
-    print ("""\n(1) Zentimeter in Zoll
-(2) Kilometer in Meilen
-(3) Quadratkilometer in Hektar
-(4) Kilometer/Stunde in Meter/Sekunde
-(5) Kilobyte in Gigabyte
+    print ("""\n(1) Zentimeter -> Zoll
+(2) Kilometer -> Meilen
+(3) Quadratkilometer -> Hektar
+(4) Kilometer/Stunde -> Meter/Sekunde
+(5) Kilobyte -> Gigabyte
 (0) Menü beenden""")
  
  
@@ -58,7 +57,7 @@ while True:
         print ("Ungültige Auswahl.Bitte wählen Sie zwischen 1-5 oder 0 zum Beenden!")
         
 #Abfrage weiterer Umrechnungen        
-    weiter = input ("\nMöchtest du eine weitere Umrechnung durchführen? (ja/nein): ").strip().lower()
+    weiter = input ("\nMöchten Sie eine weitere Umrechnung durchführen? (ja/nein): ").strip().lower()
     if weiter != 'ja':
         print("Programm wird beendet.")
         break        
